@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Puzzle</title>
+    <script type="text/javascript" src="puzzle_solver.js"></script>
+  </head>
+  <body>
+    <h1 align="center">게임에 대해서 하고 싶은 말</h1>
+
+    <!--Draw a puzzle frame-->
+
+    <table border="1" align="center">
+      <tr>
+        <th id="square_1">
+          <img id="img_1" src="/puzzle_image/1.jpg" alt="1"></th>
+        <th id="square_2">
+          <img id="img_2" src="/puzzle_image/2.jpg" alt="2"></th>
+        <th id="square_3">
+          <img id="img_3" src="/puzzle_image/3.jpg" alt="3"></th>
+      </tr>
+      <tr>
+        <th id="square_4">
+          <img id="img_4" src="/puzzle_image/4.jpg" alt="4"></th>
+        <th id="square_5">
+          <img id="img_5" src="/puzzle_image/5.jpg" alt="5"></th>
+        <th id="square_6">
+          <img id="img_6" src="/puzzle_image/6.jpg" alt="6"></th>
+      </tr>
+      <tr>
+        <th id="square_7">
+          <img id="img_7" src="/puzzle_image/7.jpg" alt="7"></th>
+        <th id="square_8">
+          <img id="img_8" src="/puzzle_image/8.jpg" alt="8"></th>
+        <th id="square_9">
+          <img id="img_9" src="/puzzle_image/blank.jpg" alt="blank"></th>
+      </tr>
+    </table>
+
+    <!--Initialize the game by shuffling-->
+    <table align="center">
+      <tr><th>
+        <button onclick="shuffle_square()" >SHUFFLE</button>
+      </th></tr>
+    </table>
+
+    <!--Solve the puzzle-->
+
+
+  </body>
+</html>
